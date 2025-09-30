@@ -1,5 +1,22 @@
 /*  Course Homepage CSS */
 
 body {
-background-color: orange;
+background-color: #F09743;
+
+
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+{
+
+    header.primary{
+        background-color:#43CCF0
+        text-align:center;
+        color:#ffffff;
 }

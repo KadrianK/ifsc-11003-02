@@ -12,6 +12,46 @@ html {
 }
 
 /*  ---------------Global Styles-----------------  */
-body {
-    
+body{
+  font-family: "Montserrat", sans-serif;
+  margin; 0;
 }
+header.primary{
+  background-color:#2577c9;
+  text-align:center;
+    /* the shadow on text with a value in the third being blur */
+  text-shadow: 1px 1px #000000
+  color:#ffffff;
+    /*Single value short hand padding*/
+  padding:40px;
+    /*long form padding*/
+    /*    padding-top:40px;
+    padding-right:40px;
+    padding-bottom:40px;
+    padding-left:40px;     */
+    /*T,R,B, L*/
+    /*    padding:20px 40px 20px 40px;    */
+    /* Two value T/b R/L 
+    padding:20px 40px;   */
+}
+ header.primary h1{
+  font-size: 2.4rem
+ }
+ header.primary h1 a{
+  color:#ffffff;
+  text-decoration:none;
+ }
+  header.primary h2{
+  font-size:1.4rem;
+  letter-spacing:.2px
+  margin: 10px 0 0 0;
+  }
+  header.primary nav ul{
+    padding:0;
+
+  }
+   header.primary nav li{
+    list-style-type:none;
+
+  }
+  
