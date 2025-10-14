@@ -215,6 +215,36 @@ padding:40px;
   text-align: right;
 }
 
+#practice ol{
+  list-style-type:upper-roman;
+}
+
+#practice ul ul{
+  color:red
+}
+
+#pracrice dt{
+  font-weight:bold;
+}
+/*#practice dt:nth-child(1n+2){
+  margin-top:20px
+}*/
+dd + dt{
+  margin-top:20px
+  /* does the same as the top */
+}
+#practice dd{
+  margin-left:0;
+}
+#practice blockquote{}
+
+#practice blockquote cite{
+  /*new line */
+  display:block;
+  font-size: .8rem;
+  text-align:right;
+
+}
 aside[role="complementary"]{
   background-color:#172735;
   color:#ffffff;
@@ -274,8 +304,11 @@ aside .widget footer{
 
   header.primary nav ul a{
   display:block;
-
   }
+  #content{
+  flex-direction:column;
+ }
+ /*linking images out of style.css will start with .. */
 
   .container{
   background-color:transparent;
